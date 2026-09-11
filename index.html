@@ -1,0 +1,118 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SensorGrid Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>SensorGrid Dashboard</h1>
+        <p>Real-Time IoT Sensor Monitoring System</p>
+    </header>
+
+    <nav>
+        <a href="#dashboard">Dashboard</a>
+        <a href="#sensors">Sensors</a>
+        <a href="#status">Status</a>
+        <a href="#about">About</a>
+    </nav>
+
+    <main id="dashboard">
+
+        <section id="sensors">
+            <h2>Sensor Overview</h2>
+
+            <div class="sensor-container">
+
+                <article class="sensor-card">
+                    <h3>🌡 Temperature</h3>
+                    <p>28°C</p>
+                    <p class="active">● Active</p>
+                    <button>View Details</button>
+                </article>
+
+                <article class="sensor-card">
+                    <h3>💧 Humidity</h3>
+                    <p>65%</p>
+                    <p class="active">● Active</p>
+                    <button>View Details</button>
+                </article>
+
+                <article class="sensor-card">
+                    <h3>🌫 Air Quality</h3>
+                    <p>Good</p>
+                    <p class="active">● Active</p>
+                    <button>View Details</button>
+                </article>
+
+                <article class="sensor-card">
+                    <h3>💡 Light</h3>
+                    <p>450 Lux</p>
+                    <p class="inactive">● Inactive</p>
+                    <button>View Details</button>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="status">
+            <h2>Sensor Status</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Sensor</th>
+                        <th>Value</th>
+                        <th>Unit</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Temperature</td>
+                        <td>28</td>
+                        <td>°C</td>
+                        <td class="active">Active</td>
+                    </tr>
+
+                    <tr>
+                        <td>Humidity</td>
+                        <td>65</td>
+                        <td>%</td>
+                        <td class="active">Active</td>
+                    </tr>
+
+                    <tr>
+                        <td>Air Quality</td>
+                        <td>Good</td>
+                        <td>---</td>
+                        <td class="active">Active</td>
+                    </tr>
+
+                    <tr>
+                        <td>Light</td>
+                        <td>450</td>
+                        <td>Lux</td>
+                        <td class="inactive">Inactive</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+    </main>
+
+    <footer id="about">
+        <p>&copy; 2026 SensorGrid Dashboard</p>
+    </footer>
+
+</body>
+</html>
+```
