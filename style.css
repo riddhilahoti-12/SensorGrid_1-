@@ -1,0 +1,94 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 15px;
+    background-color: #e8f0f8;
+}
+
+/* Navigation - Flexbox */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 12px;
+    background-color: #333;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Main */
+main {
+    padding: 20px;
+}
+
+/* Sensor cards - Grid */
+.sensor-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.sensor-card {
+    text-align: center;
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+
+/* Status indicators */
+.active {
+    color: green;
+}
+
+.inactive {
+    color: red;
+}
+
+/* Buttons */
+button {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+/* Table */
+table {
+    width: 100%;
+    margin-top: 15px;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .sensor-container {
+        grid-template-columns: 1fr;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+}
